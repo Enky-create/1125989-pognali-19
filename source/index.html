@@ -10,16 +10,14 @@
   <body>
     <header class="page-header">
       <a href="" class="page-header__logo">
-        <img src="img\logo-mobile-white@1x" class="page-header__logo-image logo-image" alt="логотип" class="page-header__logo-image" width="100" height="19">
+        <img src="img/logo-mobile-blue@1x.png" class="page-header__logo-image logo-image" alt="логотип" class="page-header__logo-image" width="100" height="19">
       </a>
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
         <div class="main-nav__wrapper">
-          <a href="" class="main-nav__logo">
-            <img src="" alt="" class="main-nav__logo logo-image">
-          </a>
-          <button class="main-nav__cross">Закрыть</button>
-          <ul class="main-nav-list site-list">
+          <ul class="main-nav__list site-list">
             <li class="site-list__item">
               <a href="#" class="site-list__anchor">О СЕРВИСЕ</a>
             </li>
@@ -30,9 +28,17 @@
               <a href="people.html" class="site-list__anchor">ПОПУТЧИКИ</a>
             </li>
           </ul>
-          <button class="simple-button">АВТОРИЗАЦИЯ</button>
-          <a href="tel:88005558628" class="phone">8 800 555-86-28</a>
-          <a href="mailto:mail@htmlacademy.ru" class="mail">MAIL@HTMLACADEMY.RU</a>
+          <ul class="main-nav__user-list">
+            <li class="user-item"><button class="user-button user-button--max-width">АВТОРИЗАЦИЯ</button></li>
+          </ul>
+          <ul class="main-nav__contacts">
+            <li class="main-nav__contacts-item">
+              <a href="tel:88005558628" class="contact contact--phone">8 800 555-86-28</a>
+            </li>
+            <li class="main-nav__contacts-item">
+              <a href="mailto:mail@htmlacademy.ru" class="contact contact--mail">MAIL@HTMLACADEMY.RU</a>
+            </li>
+          </ul>
           <ul class="main-nav__social social-list">
             <li class="social__item">
               <a href="https://www.facebook.com" class="social__anchor social__anchor--burger social__anchor--facebook" aria-label="Фэйсбук"></a>
