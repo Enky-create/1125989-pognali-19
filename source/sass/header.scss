@@ -6,3 +6,26 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.page-header__toggle {
+  @include button-reset();
+  position: relative;
+  width: 15%;
+  height: 22px;
+
+  //visibility: hidden;
+}
+
+.page-header__toggle--opened .page-header__line--second {
+  top: 50%;
+}
+
+.page-header__line {
+  position: absolute;
+  right: 0;
+  top: 20%;
+  display: block;
+  background-color: $publish-grey;
+  width: 26.85px;
+  height: 2px;
+}

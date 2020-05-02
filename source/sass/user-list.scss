@@ -1,0 +1,10 @@
+.user-list {
+  @include list-reset();
+  width: 100%;
+}
+
+.user-list__item {
+  display: block;
+  width: 100%;
+  height: auto;
+}

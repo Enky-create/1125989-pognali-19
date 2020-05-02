@@ -1,0 +1,28 @@
+.social-list {
+  @include list-reset();
+  display: flex;
+}
+
+.social__anchor {
+  box-sizing: border-box;
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+
+  &--facebook {
+    padding: 26.6% 38.3%;
+  }
+
+  &--vk {
+    padding: 35% 23%;
+  }
+
+  &--instagram {
+    padding: 30%;
+  }
+}
+
+.social__svg {
+  fill: $dark-slate-blue;
+}

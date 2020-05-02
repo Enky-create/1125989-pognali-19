@@ -1,15 +1,17 @@
 .user-button {
   @include button-reset();
+  font-family: "BloggerSans-Bold", sans-serif;
+  display: block;
   padding-top: 6%;
   padding-bottom: 5%;
   text-align: center;
   font-size: 17px;
   font-weight: bold;
   background-color: $light-gold;
-  border-radius: 25px;
+  border-radius: 9%/50%;
   color: $dark-two;
 
   &--max-width {
-    width: 106%;
+    width: 100%;
   }
 }
