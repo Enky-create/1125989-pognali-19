@@ -7,6 +7,12 @@
   justify-content: space-between;
 }
 
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .page-header__toggle {
   @include button-reset();
   position: relative;
@@ -28,4 +34,10 @@
   background-color: $publish-grey;
   width: 26.85px;
   height: 2px;
+}
+
+@media (min-width: 768px) {
+  .page-header__container {
+    width: 45.7%;
+  }
 }

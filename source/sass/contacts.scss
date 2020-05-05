@@ -21,13 +21,14 @@
 .contact__svg {
   position: absolute;
   width: 18px;
-  top: 14px;
+  top: 10px;
   left: 13px;
   fill: $light-gold;
 }
 
 .contact__text {
   display: block;
+  width: 70%;
   padding-top: 1%;
   padding-left: 5.5%;
   font-family: "BloggerSans-Bold", sans-serif;
